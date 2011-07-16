@@ -1,0 +1,190 @@
+html
+{
+	background: url(images/trees.png) repeat-x;
+	cursor: default;
+}
+
+#game,
+#menu
+{
+	position: relative;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	background: url(images/main.png) repeat-x;
+	border: 1px black solid;
+}
+
+#game
+{
+	display: none;
+}
+
+#textbox
+{
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: 760px;
+	height: 216px;
+	color: white;
+}
+
+#tb-img
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-image: url(images/textbox.png);
+	opacity: 0.5;
+}
+
+#name
+{
+	position: absolute;
+	left: 60px;
+	top: 10px;
+	font-size: 25px;
+	opacity: 1;
+}
+
+#text
+{
+	position: absolute;
+	top: 50px;
+	bottom: 40px;
+	left: 20px;
+	right: 60px;
+	overflow: hidden;
+	font-size: 25px;
+}
+
+#personnage
+{
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+.button
+{
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+}
+
+#start
+{
+	top: 344px;
+	background-image: url(images/start.png);
+	height: 40px;
+	width: 312px;
+}
+
+#start:hover
+{
+	background-position: 624px 0;
+}
+
+#load
+{
+	top: 384px;
+	background-image: url(images/load.png);
+	height: 40px;
+	width: 296px;
+}
+
+#load:hover
+{
+	background-position: 592px 0;
+}
+
+#extra
+{
+	top: 424px;
+	background-image: url(images/extra.png);
+	height: 40px;
+	width: 280px;
+}
+
+#extra:hover
+{
+	background-position: 560px 0;
+}
+
+.button-extra
+{
+	position: absolute;
+	display: none;
+}
+
+#scenario
+{
+	top: -56px;
+	left: 192px;
+	background-image: url(images/scenario.png);
+	height: 40px;
+	width: 328px;
+}
+
+#scenario:hover
+{
+	background-position: 656px 0;
+}
+
+#cg
+{
+	top: -24px;
+	left: 176px;
+	background-image: url(images/cg.png);
+	height: 40px;
+	width: 328px;
+}
+
+#cg:hover
+{
+	background-position: 656px 0;
+}
+
+#music
+{
+	top: 8px;
+	left: 160px;
+	background-image: url(images/music.png);
+	height: 40px;
+	width: 328px;
+}
+
+#music:hover
+{
+	background-position: 656px 0;
+}
+
+#config
+{
+	top: 464px;
+	background-image: url(images/config.png);
+	height: 40px;
+	width: 264px;
+}
+
+#config:hover
+{
+	background-position: 528px 0;
+}
+
+#quit
+{
+	top: 504px;
+	background-image: url(images/quit.png);
+	height: 40px;
+	width: 248px;
+}
+
+#quit:hover
+{
+	background-position: 496px 0;
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"background": "url(images/outside.png)",
+		"personnage": "images/nemu.png",
+		"name": "Nemu",
+		"text": "Hello nii-san."
+	},
+	{
+		"name": "Jun'ichi",
+		"text": "Hello Nemu."
+	},
+	{
+		"name": "Nemu",
+		"text": "You are hungry ?"
+	},
+	{
+		"name": "Jun'ichi",
+		"text": "Yes, but please, buy me something."
+	},
+	{
+		"name": "",
+		"text": "Her cooking just sucks."
+	},
+	{
+		"personnage": "images/nemu_facepalm.png",
+		"name": "Nemu",
+		"text": "No chance !"
+	},
+	{
+		"personnage": "images/nemu.png",
+		"name": "Nemu",
+		"text": "Ok, come with me to the cafeteria."
+	},
+	{
+		"background": "url(images/cafet.png)",
+		"name": "Nemu",
+		"text": "Just help yourself."
+	},
+	{
+		"personnage": "images/nemu_laugh.png",
+		"name": "Nemu",
+		"text": "By the way, this demo is already finished. Bye bye."
+	}
+]
